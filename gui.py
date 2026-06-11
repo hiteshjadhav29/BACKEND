@@ -1,0 +1,10 @@
+from tkinter import * 
+root=Tk() 
+root.title("Radio Button Example") 
+v=IntVar() 
+Radiobutton(root,text="Option 1",variable=v,value=1).pack() 
+Radiobutton(root,text="Option 2",variable=v,value=2).pack() 
+Radiobutton(root,text="Option 3",variable=v,value=3).pack() 
+Radiobutton(root,text="Option 4",variable=v,value=4).pack() 
+Radiobutton(root,text="Option 5",variable=v,value=5).pack() 
+root.mainloop()
