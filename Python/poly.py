@@ -2,7 +2,7 @@ class payment:
     def pay(self):
         pass
     print("payment process started")
-    
+
 class upi(payment):
     def pay(self):
         return "payment done by upi"
@@ -29,3 +29,8 @@ match ch:
 
 p=payment_mod()
 p.payment_pro(obj)
+
+#multiple object
+obj=[upi(),gpay()]
+for i in obj:
+    print(i.pay())
