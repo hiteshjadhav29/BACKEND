@@ -96,7 +96,7 @@ def generate_pdf():
 
     receiver = input("Enter Receiver Gmail: ")
     sender = "hiteshj2900@gmail.com"
-    app_password = "Hitesh@29"
+    app_password = "zzsgbkzpypmzfkax"
 
     msg = EmailMessage()
 
