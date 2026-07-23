@@ -13,7 +13,7 @@ while True:
     user_input = input("You: ")
 
     if user_input.lower() == "exit":
-        print("Bot: Goodbye!")
+        print("Gemini Bot: Goodbye!")
         break
 
     response = client.models.generate_content(
@@ -21,4 +21,4 @@ while True:
         contents=user_input
     )
 
-    print("Bot:", response.text)
+    print("Gemini Bot:", response.text)
